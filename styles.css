@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222831;
+}
+
+.header-icons {
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    top: 5px;
+    padding: 0 10%;
+    gap: 35px;
+    height: 50px;
+    font-size: 32px;
+    background-color: #222831;
+    box-shadow: 5px 5px 15px rgb(37, 211, 102);
+}
+
+.header-icons i {
+    color: #F0FFFF;
+    transition: 1s;
+}
+
+.fa-linkedin:hover {
+    color: rgb(10, 102, 194);
+}
+
+.fa-github:hover {
+    color: #4169E1;
+}
+
+.fa-square-whatsapp:hover {
+    color: rgb(37, 211, 102);
+}
+
+.presentation-text {
+    margin-left: 72px;
+    margin-top: 45px;
+    color: #F0FFFF;
+}
+
+.presentation-text h1 {
+    font-size: 45px;
+}
+
+.presentation-text h2 {
+    font-size: 50px;
+    color: rgb(37, 211, 102);
+    width: 22ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(22),blinking 0.5s infinite step-end alternate;
+}
+
+.abaout-me{
+    color: #F0FFFF;
+}
+
+.questions-answer {
+    margin-top: 54px;
+    margin-left: 108px;
+}
+
+.questions-answer details summary {
+    font-weight: 600;
+    width: 520px;
+    font-size: 13.5;
+    padding: 28px;
+    color: rgb(37, 211, 102);
+    box-shadow: 1px 1px 4px rgb(37, 211, 102);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.questions-answer details summary:hover {
+    color: #F0FFFF;
+}
+
+.questions-answer p {
+    font-size: 18px;
+    width: 520px;
+    background-color: transparent;
+    color: #F0FFFF;
+    padding: 2%;
+    border: 2px solid #222831;
+    box-shadow: 5px 1px 33px rgb(37, 211, 102);
+}
+
+.questions-answer i {
+    font-size: 32px;
+}
+
+.discription-footer {
+    margin-top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10%;
+    background-color: #222831;
+    box-shadow: -8px -8px 15px rgb(37, 211, 102);
+    height: 56px;
+    font-size: 9px;
+    color: #F0FFFF;
+}
+
+.discription-footer a {
+    text-decoration: none;
+    color: #F0FFFF;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 20px;
+}
+
+.discription-footer a:hover {
+    color: #ee0000;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
