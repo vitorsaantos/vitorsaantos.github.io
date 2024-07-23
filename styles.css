@@ -135,15 +135,31 @@ body {
 
 
 @media screen and (max-width: 768px) {
+    .header-icons {
+        display: flex;  
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        top: 5px;
+        height: 50px;
+        font-size: 32px;
+        background-color: #222831;
+        box-shadow: 5px 5px 15px rgb(37, 211, 102);
+    }
     
+    .header-icons i {
+        color: #F0FFFF;
+        transition: 1s;
+    }
+  
     .presentation-text {
-        margin-left: 68px;
+        margin-left: 15px;
         margin-top: 45px;
         color: #F0FFFF;
     }
     
     .presentation-text h1 {
-        font-size: 40px;
+        font-size: 32px;
     }
     
     .presentation-text h2 {
@@ -160,7 +176,7 @@ body {
     }
     .questions-answer details summary {
         font-weight: 120px;
-        width: 300px;
+        width: 265px;
         font-size: 13.5;
         padding: 28px;
         color: rgb(37, 211, 102);
@@ -175,7 +191,7 @@ body {
     
     .questions-answer p {
         font-size: 18px;
-        width: 300px;
+        width: 265px;
         background-color: transparent;
         color: #F0FFFF;
         padding: 2%;
@@ -187,5 +203,18 @@ body {
         font-size: 32px;
     }
 
-      }
+    .discription-footer {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top: 135px;
+        height: 56px;
+        font-size: 9px;
+        gap: 5px;
+        background-color: #222831;
+        box-shadow: -8px -8px 15px rgb(37, 211, 102);
+        color: #F0FFFF;
+    }
+
+}
   
