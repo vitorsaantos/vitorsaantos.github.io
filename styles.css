@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     top: 5px;
-    padding: 0 10%;
+    padding: 0 6%;
     gap: 35px;
     height: 50px;
     font-size: 32px;
@@ -101,7 +101,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 10%;
+    padding: 0 6%;
     background-color: #222831;
     box-shadow: -8px -8px 15px rgb(37, 211, 102);
     height: 56px;
@@ -132,3 +132,60 @@ body {
         border-color: transparent;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    
+    .presentation-text {
+        margin-left: 68px;
+        margin-top: 45px;
+        color: #F0FFFF;
+    }
+    
+    .presentation-text h1 {
+        font-size: 40px;
+    }
+    
+    .presentation-text h2 {
+        font-size: 25px;
+        color: rgb(37, 211, 102);
+        width: 22ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 2s steps(22),blinking 0.5s infinite step-end alternate;
+    }
+    .questions-answer {
+        margin-top: 54px;
+        margin-left: 20px;
+    }
+    .questions-answer details summary {
+        font-weight: 120px;
+        width: 300px;
+        font-size: 13.5;
+        padding: 28px;
+        color: rgb(37, 211, 102);
+        box-shadow: 1px 1px 4px rgb(37, 211, 102);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .questions-answer details summary:hover {
+        color: #F0FFFF;
+    }
+    
+    .questions-answer p {
+        font-size: 18px;
+        width: 300px;
+        background-color: transparent;
+        color: #F0FFFF;
+        padding: 2%;
+        border: 2px solid #222831;
+        box-shadow: 5px 1px 33px rgb(37, 211, 102);
+    }
+    
+    .questions-answer i {
+        font-size: 32px;
+    }
+
+      }
+  
