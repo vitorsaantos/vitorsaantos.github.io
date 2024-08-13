@@ -118,7 +118,7 @@ body {
 }
 
 .discription-footer a:hover {
-    color: #ee0000;
+    color: rgb(37, 211, 102);
 }
 
 @keyframes typing {
