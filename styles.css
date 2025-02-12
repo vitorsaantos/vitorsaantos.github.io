@@ -217,4 +217,32 @@ body {
     }
 
 }
+
+.icon-python {
+    color: #306998; /* Cor do logo do Python */
+}
+
+.icon-html5 {
+    color: #e34c26; /* Cor do logo do HTML5 */
+}
+
+.icon-css3 {
+    color: #264de4; /* Cor do logo do CSS3 */
+}
+
+.icon-mysql {
+    color: #00758f; /* Cor do logo do MySQL */
+}
+
+.icon-sql {
+    color: #00758f; /* Cor do logo do SQL */
+}
+
+.icon-git {
+    color: #f34f29; /* Cor do logo do Git */
+}
+
+.icon-github {
+    color: #181717; /* Cor do logo do GitHub */
+}
   
