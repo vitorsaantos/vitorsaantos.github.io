@@ -1,118 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css"
-        integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
-        integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/solid.min.css"
-        integrity="sha512-Hp+WwK4QdKZk9/W0ViDvLunYjFrGJmNDt6sCflZNkjgvNq9mY+0tMbd6tWMiAlcf1OQyqL4gn2rYp7UsfssZPA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-    <link rel="stylesheet" href="styles.css">
-
-
-    <title>Portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitor Santos — Desenvolvedor Python &amp; Django</title>
+  <meta name="description" content="Portfólio de Vitor Santos: projetos em Python e Django.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <header>
-        <div class="parte-cima">
-            <div class="header-icons">
-                <a class="linkedin" href="https://www.linkedin.com/in/vitorsantos96/">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a class="github" href="https://github.com/vitorsaantos">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a class="whatsapp" href="https://wa.me/48988745809">
-                    <i class="fa-brands fa-square-whatsapp"></i>
-                </a>
-            </div>
-        </div>
+  <div class="container">
+    <header class="header">
+      <a href="index.html" class="logo">Vitor Santos</a>
+      <nav class="nav">
+        <a href="index.html" class="active">Projetos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </nav>
     </header>
 
-    <div class="presentation-text">
-        <h1>Olá, meu nome é</h1>
-        <h2>Vitor Dos Santos Corrêa.</h2>
-        <h1>Seja bem-vindo ao meu</h1>
-        <h2>Portfólio!</h2>
-    </div>
-
-    <div class="questions-answer">
-        <h1 class="abaout-me">Sobre mim:</h1>
-        <section>
-            <details>
-                <summary>Quem sou eu?</summary>
-                <p>Sou um desenvolvedor de software apaixonado por criar soluções tecnólogicas inovadoras.
-                    Acredito no poder da tecnologia para melhorar vidas e tornar o mundo em um lugar melhor.
-                </p>
-            </details>
-        </section>
-
-        <section>
-            <details>
-                <summary>Minha jornada?</summary>
-                <p> Desde cedo, sempre fui fascinado por computadores e tecnologia. E percebi que era minha paixão.
-                    Decidi seguir carreira em desenvolvimento de sistemas. Aonde estou cursando na Estácio.
-                </p>
-            </details>
-        </section>
-
-        <section>
-            <details>
-                <summary>Meus interesses?</summary>
-                <p>Fora do trabalho, também gosto de viajar, jogar games, passar o tempo com minha família e amigos.</p>
-            </details>
-        </section>
-
-        <section>
-            <details>
-                <summary>Meu propósito?</summary>
-                <p>Acredito que a tecnologia tem o poder de resolver alguns dos maiores desafios do mundo.
-                    Estou comprometodo em usar minhas habilidades como desenvolvedor de software para criar soluções que
-                    façam a diferença na vida das pessoas.
-                </p>
-            </details>
-        </section>
-
-        <section>
-            <details>
-                <summary>Minhas soft-skills?</summary>
-                <p>
-                    <i class="fa-brands fa-python icon-python"></i>__
-                    <i class="fa-brands fa-html5 icon-html5"></i>__
-                    <i class="fa-brands fa-css3-alt icon-css3"></i>__
-                    <i class="fa-solid fa-database icon-mysql"></i>__
-                    <i class="fa-brands fa-git-alt icon-git"></i>__
-                    <i class="fa-brands fa-github icon-github"></i>
-                </p>
-            </details>
-        </section>
-    </div>
-
-
-    <footer>
-        <div class="discription-footer">
-            <h1>By Vitor Santos</h1>
-            <a href="https://wa.me/48988745809">Contato</a>
-
-            <a
-                href="https://drive.usercontent.google.com/download?id=1Zol7X4D7Mf8eiug62DSev7iOnirreN-y&export=download&authuser=0&confirm=t&uuid=5fed6fc6-fc0e-4a58-a916-cf892e2cc21c&at=AIrpjvPpvj45lzGL71n6gouxjd5b:1739365209889">
-                currículo
-            </a>
+    <main class="main">
+      <section class="hero">
+        <h1 class="hero-title">Olá, sou o Vitor Santos.</h1>
+        <p class="eyebrow">Desenvolvedor Backend.</p>
+        <div class="actions">
+          <a href="cv.pdf" download="Vitor_Dos_Santos_Correa_CV.pdf" class="btn btn-primary">Baixar CV</a>
+          <a href="contato.html" class="btn btn-ghost">Entrar em contato</a>
         </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2 class="title-md">Projetos</h2>
+          <span class="muted small">3 publicados</span>
+        </div>
+
+        <div class="projects">
+          <article class="card">
+            <div class="card-top">
+              <span class="card-number">01</span>
+              <a href="https://github.com/vitorsaantos/Sistema-de-Cadastro" target="_blank" rel="noreferrer" class="card-github">GitHub ↗</a>
+            </div>
+            <h3 class="card-title">Sistema de Cadastro</h3>
+            <p class="card-text">Sistema para cadastrar e organizar registros, criado em Python com um pouco de JavaScript na interface.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">JSON</span>
+            </div>
+            <a href="https://github.com/vitorsaantos/Sistema-de-Cadastro" target="_blank" rel="noreferrer" class="card-link">Ver no GitHub →</a>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-number">02</span>
+              <a href="https://github.com/vitorsaantos/site_receitas" target="_blank" rel="noreferrer" class="card-github">GitHub ↗</a>
+            </div>
+            <h3 class="card-title">Site de Receitas</h3>
+            <p class="card-text">Site de receitas desenvolvido durante um curso, com Python, Django e um pouco de JavaScript e JSON.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Django</span>
+              <span class="tag">CSS</span>
+              <span class="tag">HTML</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">JSON</span>
+              
+            </div>
+            <a href="https://github.com/vitorsaantos/site_receitas" target="_blank" rel="noreferrer" class="card-link">Ver no GitHub →</a>
+          </article>
+
+        <div class="projects">
+          <article class="card">
+            <div class="card-top">
+              <span class="card-number">03</span>
+              <a href="https://github.com/vitorsaantos" target="_blank" rel="noreferrer" class="card-github">Em breve ↗</a>
+            </div>
+            <h3 class="card-title">Sistema de Tarefas (To-Do)</h3>
+            <p class="card-text">Aplicação de lista de tarefas (To-Do List) desenvolvida para cadastrar, organizar e acompanhar tarefas, 
+              com uma interface simples e intuitiva.</p>
+            <p>Em Contrução....</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Django</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">SQL</span>
+            </div>
+            <a href="https://github.com/vitorsaantos" target="_blank" rel="noreferrer" class="card-link">Ver no GitHub →</a>
+          </article>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 Vitor Santos</span>
+      <div class="footer-links">
+        <a href="https://github.com/vitorsaantos" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/vitorsantos96" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="cv.pdf" download="Vitor_Dos_Santos_Correa_CV.pdf">Baixar CV</a>
+      </div>
     </footer>
 
-
+  </div>
 </body>
-
 </html>
